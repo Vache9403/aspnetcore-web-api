@@ -1,0 +1,190 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Microsoft.AspNetCore.OpenApi >= 7.0.0",
+      "Swashbuckle.AspNetCore >= 6.4.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vache.asatryan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\vache.asatryan\\source\\repos\\my-books\\my-books\\my-books.csproj",
+      "projectName": "my-books",
+      "projectPath": "C:\\Users\\vache.asatryan\\source\\repos\\my-books\\my-books\\my-books.csproj",
+      "packagesPath": "C:\\Users\\vache.asatryan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vache.asatryan\\source\\repos\\my-books\\my-books\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\vache.asatryan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
+        "http://83.139.6.67:50559/nuget/": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.devexpress.com/api": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[6.4.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://83.139.6.67:50559/nuget/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore' from remote source 'http://83.139.6.67:50559/nuget/FindPackagesById()?id='Swashbuckle.AspNetCore'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore' from remote source 'http://83.139.6.67:50559/nuget/FindPackagesById()?id='Swashbuckle.AspNetCore'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.OpenApi' from remote source 'http://83.139.6.67:50559/nuget/FindPackagesById()?id='Microsoft.AspNetCore.OpenApi'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.OpenApi"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.OpenApi' from remote source 'http://83.139.6.67:50559/nuget/FindPackagesById()?id='Microsoft.AspNetCore.OpenApi'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.OpenApi"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerUI' from remote source 'http://83.139.6.67:50559/nuget/FindPackagesById()?id='Swashbuckle.AspNetCore.SwaggerUI'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerUI"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerUI' from remote source 'http://83.139.6.67:50559/nuget/FindPackagesById()?id='Swashbuckle.AspNetCore.SwaggerUI'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerUI"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.ApiDescription.Server' from remote source 'http://83.139.6.67:50559/nuget/FindPackagesById()?id='Microsoft.Extensions.ApiDescription.Server'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.ApiDescription.Server"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerGen' from remote source 'http://83.139.6.67:50559/nuget/FindPackagesById()?id='Swashbuckle.AspNetCore.SwaggerGen'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerGen"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.ApiDescription.Server' from remote source 'http://83.139.6.67:50559/nuget/FindPackagesById()?id='Microsoft.Extensions.ApiDescription.Server'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.ApiDescription.Server"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerGen' from remote source 'http://83.139.6.67:50559/nuget/FindPackagesById()?id='Swashbuckle.AspNetCore.SwaggerGen'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerGen"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.Swagger' from remote source 'http://83.139.6.67:50559/nuget/FindPackagesById()?id='Swashbuckle.AspNetCore.Swagger'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore.Swagger"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.Swagger' from remote source 'http://83.139.6.67:50559/nuget/FindPackagesById()?id='Swashbuckle.AspNetCore.Swagger'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore.Swagger"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.OpenApi' from remote source 'http://83.139.6.67:50559/nuget/FindPackagesById()?id='Microsoft.OpenApi'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.OpenApi"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.OpenApi' from remote source 'http://83.139.6.67:50559/nuget/FindPackagesById()?id='Microsoft.OpenApi'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.OpenApi"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.OpenApi' from remote source 'http://83.139.6.67:50559/nuget/FindPackagesById()?id='Microsoft.OpenApi'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.OpenApi"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.OpenApi' from remote source 'http://83.139.6.67:50559/nuget/FindPackagesById()?id='Microsoft.OpenApi'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.OpenApi"
+    }
+  ]
+}
