@@ -22,7 +22,6 @@
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
-          "http://83.139.6.67:50559/nuget/": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.devexpress.com/api": {}
         },
@@ -43,6 +42,14 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
